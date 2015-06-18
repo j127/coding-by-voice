@@ -1,0 +1,8 @@
+# Editors
+*~
+*.sw[op]
+
+# Python
+*.py[co]
+
+core/
