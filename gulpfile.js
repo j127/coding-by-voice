@@ -1,5 +1,7 @@
 // Borrowed from https://github.com/simianhacker/code-by-voice/blob/master/Gulpfile.js
 // Copies macros from the git repo into \Natlink\Natlink\MacroSystem
+// IMPORTANT: this gulp task overwrites existing files!
+
 var gulp = require('gulp');
 var path = require('path');
 var source = path.join('.', 'macros', '**', '*');
