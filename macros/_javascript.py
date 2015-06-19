@@ -20,8 +20,8 @@ rules = MappingRule(
       ],
     defaults={
       'n': 1
-      }
-    )
+    }
+)
 
 grammar.add_rule(rules)
 grammar.load()
